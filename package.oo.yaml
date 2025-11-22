@@ -1,0 +1,11 @@
+version: 0.0.1
+scripts:
+  bootstrap: |
+    npm install
+    poetry install --no-root
+displayName: "%upload-to-cloud%"
+name: cloudflare-r2
+icon: ./icon.png
+description: "%key%"
+repository: https://github.com/oomol-flows/cloudflare-r2.git
+releaseNotes: support large file
