@@ -11,7 +11,7 @@ inputs_def:
 
 outputs_def:
   - handle: remote_url
-    description: "Presigned URL for accessing the uploaded file (valid for 24 hours)"
+    description: "%presigned-url-for-accessing-the-uploaded-file-valid-for-24-hours%"
     json_schema:
       type: string
       title: Presigned URL
